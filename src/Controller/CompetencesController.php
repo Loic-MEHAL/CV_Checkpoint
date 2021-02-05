@@ -15,9 +15,7 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class CompetencesController extends AbstractController
 {
-    /**
-     * @Route("/", name="competences_index", methods={"GET"})
-     */
+
     public function index(CompetencesRepository $competencesRepository): Response
     {
         return $this->render('competences/index.html.twig', [

@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+
+    <div class="profil">
+
+
+    </div>
+
+    <div>
+        <h2>Compétences</h2>
+        {% for competence in competences %}
+            <div class ='competences'>
+                <h3>{{ competence.name }}</h3>
+                <p>{{ competence.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div>
+        <h2>Parcours</h2>
+        {% for xp in parcours %}
+            <div class ='parcours'>
+                <h3>{{ xp.name }}</h3>
+                <em>{{ xp.society }}</em>
+                <p>{{ xp.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div>
+        <h2>Réalisations</h2>
+        {% for realisation in realisations %}
+            <div class ='realisations'>
+                <h3>{{ realisation.name }}</h3>
+                <p>{{ realisation.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
