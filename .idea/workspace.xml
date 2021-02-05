@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e95ff8e-23c3-45a7-a23d-8d12defac3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CV_Checkpoint.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CV_Checkpoint.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CompetencesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CompetencesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Security/AuthAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/AuthAuthenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/competences/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/competences/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parcours/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parcours/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/realisations/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/index.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="1e95ff8e-23c3-45a7-a23d-8d12defac3f6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612434746069</updated>
-      <workItem from="1612434747193" duration="22627000" />
+      <workItem from="1612434747193" duration="23522000" />
     </task>
     <servers />
   </component>
