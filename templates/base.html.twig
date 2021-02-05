@@ -3,11 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
 
-        {% block javascripts %}{% endblock %}
+        <header>
+            <nav>
+                <ul class="ul_header_navbar">
+                    <li class="li_navbar"><a href="{{path('home')}}">home</a></li>
+                    <li class="li_navbar"><a href="{{path('home')}}">à propos</a></li>
+                    <li class="li_navbar"><a href="{{path('home')}}">compétences</a></li>
+                    <li class="li_navbar"><a href="{{path('home')}}">parcours</a></li>
+                    <li class="li_navbar"><a href="{{path('home')}}">réalisations</a></li>
+                    <li class="li_navbar"><a href="{{path('home')}}">contact</a></li>
+                    {% if app.user %}
+                        {% if "ROLE_ADMIN" in app.user.roles %}
+                            <li class="li_navbar"><a href="{{path('admin_index')}}">espace admin</a></li>
+                            <li class="li_navbar"><a href="{{path('app_logout')}}">déconnexion</a></li>
+                        {% endif %}
+                    {% endif %}
+                </ul>
+            </nav>
+        </header>
+
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
     </body>
 </html>
